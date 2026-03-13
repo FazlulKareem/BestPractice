@@ -38,7 +38,7 @@ namespace BestPractice
             // Static constructor to initialize the DataAccess class
             static DataAccess()
             {
-                Logger.Log("Data Access Layer Initialized for Git Hub new ");
+                Logger.Log("Data Access Layer Initialized for Git Hub for Pull purpose ");
             }
 
             public static void GetData()
@@ -64,12 +64,12 @@ namespace BestPractice
         {
             Operating addoperating = add;
             Operating muloperating = mul;
-            Console.WriteLine("Addition: " + addoperating(8, 5));
-            Console.WriteLine("Multiplication: " + muloperating(8, 5));
+            Console.WriteLine("Addition: " + addoperating(30, 5));
+            Console.WriteLine("Multiplication: " + muloperating(35, 5));
 
             Operating opradd = new Operating(add);
             Operating oprmul = new Operating(mul);
-            Console.WriteLine("Addition: " + opradd(10, 20));
+            Console.WriteLine("Addition: " + opradd(18, 20));
             Console.WriteLine("Multiplication: " + oprmul(10, 10));
 
 
