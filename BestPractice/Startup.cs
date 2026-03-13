@@ -19,7 +19,7 @@ namespace BestPractice
 
             public void StartProcess()
             {
-                Console.WriteLine("Process Started");
+                Console.WriteLine("Process Started for fetch");
 
                 // Raise event
                 ProcessCompleted?.Invoke();
