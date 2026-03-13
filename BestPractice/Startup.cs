@@ -38,7 +38,7 @@ namespace BestPractice
             // Static constructor to initialize the DataAccess class
             static DataAccess()
             {
-                Logger.Log("Data Access Layer Initialized");
+                Logger.Log("Data Access Layer Initialized for Git Hub new");
             }
 
             public static void GetData()
