@@ -19,7 +19,7 @@ namespace BestPractice
 
             public void StartProcess()
             {
-                Console.WriteLine("Process Started for fetch");
+                Console.WriteLine("Process Started for pull from GIT !");
 
                 // Raise event
                 ProcessCompleted?.Invoke();
